@@ -112,8 +112,8 @@ import { UserComponent } from './user/user.component';
     MatToolbarModule,
     MatTooltipModule,
     MatTreeModule,
-   // PortalModule,
-   // ScrollingModule,
+    PortalModule,
+    ScrollingModule,
    // SidebarModule
   ],
   providers: [],
