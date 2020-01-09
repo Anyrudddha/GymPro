@@ -12,5 +12,9 @@ namespace GymProAPI.Model
         {
             Console.Write("Chai peee looo");
         }
+        void vitthal()
+        {
+            Console.Write("Chai peee looo");
+        }
     }
 }
