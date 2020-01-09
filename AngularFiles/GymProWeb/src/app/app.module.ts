@@ -46,13 +46,15 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatTreeModule} from '@angular/material/tree';
 import { UserComponent } from './user/user.component';
+import { DialogOverviewExampleDialogComponent } from './user/DialogOverviewExampleDialog/DialogOverviewExampleDialog.component';
 // import { SidebarComponent, SidebarModule } from '@syncfusion/ej2-angular-navigations';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    UserComponent
+    UserComponent,
+    DialogOverviewExampleDialogComponent
   ],
   imports: [
     BrowserModule,
