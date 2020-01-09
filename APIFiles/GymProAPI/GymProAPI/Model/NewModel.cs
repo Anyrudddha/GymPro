@@ -7,5 +7,10 @@ namespace GymProAPI.Model
 {
     public class NewModel
     {
+
+        void hellofrnds()
+        {
+            Console.Write("Chai peee looo");
+        }
     }
 }
