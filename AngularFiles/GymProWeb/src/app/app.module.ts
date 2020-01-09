@@ -47,6 +47,8 @@ import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatTreeModule} from '@angular/material/tree';
 import { UserComponent } from './user/user.component';
 import { DialogOverviewExampleDialogComponent } from './user/DialogOverviewExampleDialog/DialogOverviewExampleDialog.component';
+import { LandingPageComponent } from './landing-page/landing-page.component';
+import { MatCarouselModule } from '@ngmodule/material-carousel';
 // import { SidebarComponent, SidebarModule } from '@syncfusion/ej2-angular-navigations';
 
 
@@ -54,7 +56,8 @@ import { DialogOverviewExampleDialogComponent } from './user/DialogOverviewExamp
   declarations: [
     AppComponent,
     UserComponent,
-    DialogOverviewExampleDialogComponent
+    DialogOverviewExampleDialogComponent,
+    LandingPageComponent
   ],
   imports: [
     BrowserModule,
@@ -116,6 +119,7 @@ import { DialogOverviewExampleDialogComponent } from './user/DialogOverviewExamp
     MatTreeModule,
     PortalModule,
     ScrollingModule,
+    MatCarouselModule
    // SidebarModule
   ],
   providers: [],
