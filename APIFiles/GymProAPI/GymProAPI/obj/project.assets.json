@@ -11509,11 +11509,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GymPro\\GymProAPI\\GymProAPI\\GymProAPI\\GymProAPI.csproj",
+      "projectUniqueName": "D:\\GymPro\\APIFiles\\GymProAPI\\GymProAPI\\GymProAPI.csproj",
       "projectName": "GymProAPI",
-      "projectPath": "D:\\GymPro\\GymProAPI\\GymProAPI\\GymProAPI\\GymProAPI.csproj",
+      "projectPath": "D:\\GymPro\\APIFiles\\GymProAPI\\GymProAPI\\GymProAPI.csproj",
       "packagesPath": "C:\\Users\\Varseno\\.nuget\\packages\\",
-      "outputPath": "D:\\GymPro\\GymProAPI\\GymProAPI\\GymProAPI\\obj\\",
+      "outputPath": "D:\\GymPro\\APIFiles\\GymProAPI\\GymProAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
