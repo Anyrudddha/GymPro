@@ -14,7 +14,6 @@ export class SidenavbarComponent implements OnInit {
   ngOnInit() {
 
   }
-  
 
   constructor() {
 
