@@ -6,7 +6,7 @@ import { DialogOverviewExampleDialogComponent } from './user/DialogOverviewExamp
 
 const routes: Routes = [
   { path: 'user', component: UserComponent },
-  { path: 'dialog',component: DialogOverviewExampleDialogComponent },
+  { path: 'dialog', component: DialogOverviewExampleDialogComponent },
   { path: '', redirectTo: 'login', pathMatch: 'full' },
  // { path: '**', component: PageNotFoundComponent }
 
