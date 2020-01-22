@@ -1,0 +1,230 @@
+
+    <header id="Home">
+      <div class="MainDiv" style="margin-top: 20px;">
+            <button mat-button>Home</button>
+                <a href="#AC_Page"><button mat-button>About us</button></a>
+                <a href="#AC_Page"><button mat-button >Contact us</button></a>
+                <a [routerLink]="'/login'"><button mat-button class="btn_Login">Login</button></a>
+        </div>
+    </header>
+<main>
+         
+            <mat-carousel timings="250ms ease-in"
+           [autoplay]="true"
+           interval="1000"
+           color="accent"
+           maxWidth="auto"
+           proportion="25"
+       
+           slides="5"
+           [loop]="true"
+           [hideArrows]="false"
+           [hideIndicators]="false"
+           [useKeyboard]="true"
+           [useMouseWheel]="false"
+           orientation="ltr">
+           
+           <mat-carousel-slide #matCarouselSlide
+           *ngFor="let slide of imgpro; let i = index"
+           [image]="slide.url"
+           overlayColor="#00000040"
+           [hideOverlay]="false">
+           </mat-carousel-slide> 
+           </mat-carousel>
+           
+         
+
+
+
+
+
+<section>
+
+          <mat-grid-list cols="2" rowHeight="2:1" style="margin-top:40px;">
+            <mat-grid-tile>
+                <div class="card" >
+                    <h1 style="color: white;">Welcome To GymPro</h1><br>
+                    <p  style="color: white;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Maiores ratione excepturi nobis quasi atque quia inventore 
+                    aspernatur ea aut voluptatem? </p><br>
+                    <button mat-raised-button color="#007bff" style="width: 120px;margin:0px 20px 20px 10px;height: 40px; ">Register</button>
+                </div><br>
+            </mat-grid-tile>
+
+            <mat-grid-tile>
+                <img src="../assets/Images/pexels-photo-1954524.jpeg" height="100%" width="100%" style="margin-left:20px;"/>
+           </mat-grid-tile>
+         </mat-grid-list>
+        </section>
+
+          <div class="site-blocks-cover inner-page overlay" style="background-image: url(images/hero_bg_2.jpg);margin-top: 260px;" data-aos="fade" data-stellar-background-ratio="0.5">
+            <div class="container">
+              <div class="row align-items-center justify-content-center">
+                <div class="col-md-7 text-center">
+                  <h1 class="mb-5"> <strong>Get In Touch</strong></h1>
+                </div>
+              </div>
+            </div>
+          </div>  
+
+
+            <div class="row " style="margin-left: 20px;" id="AC_Page" >
+                <div class="col-sm-4" >
+                    <div class="row form-group" >
+                        <div>
+                          <label class="font-weight-bold" for="fullname">Full Name</label>
+                          <input type="text" id="fullname" class="form-control" placeholder="Full Name">
+                        </div>
+                      </div>
+          
+                      <div class="row form-group">
+                        <div >
+                          <label class="font-weight-bold" for="email">Email</label>
+                          <input type="email" id="email" class="form-control" placeholder="Email Address">
+                        </div>
+                      </div>
+          
+          
+                      <div class="row form-group">
+                          <div >
+                            <label class="font-weight-bold" for="email">ContactNo</label>
+                            <input type="email" id="email" class="form-control" placeholder="Email Address">
+                          </div>
+                        </div>
+                      
+                      <div class="row form-group">
+                        <div>
+                          <label class="font-weight-bold" for="message">Message</label> 
+                          <textarea name="message" id="message"  rows="5" class="form-control" placeholder="Say hello to us"></textarea>
+                        </div>
+                      </div>
+          
+                      <div class="row form-group">
+                        <div >
+                          <input type="submit" value="Send" class="btn btn-primary" style="background-color:#007bff ;">
+                        </div>
+                      </div>
+                      
+                </div>
+             
+                
+                    <div class="col-sm-4" >
+                        <br><br><br>
+                        <h2>Contact Info</h2>
+                            <p class="mb-0 font-weight-bold">Address</p>
+                            <p class="mb-4"> 1, Silver Moon, near supreme pallecia, Baner, Pune, Maharashtra 411045</p>
+
+                            <p class="mb-0 font-weight-bold">Phone</p>
+                            <p class="mb-4"><a href="#">+91 9637763012</a></p>
+
+                            <p class="mb-0 font-weight-bold">Email Address</p>
+                            <p class="mb-0"><a href="#">gympro@domain.com</a></p>
+                        </div>
+              
+
+           
+                <div class="col-sm-4" >
+                    <br><br>
+                        <div class="p-4 mb-3 bg-white">
+                            <h3 class="h5 text-black mb-3">More Info</h3>
+                            <p>A gymnasium, also known as a gym, is a covered location for gymnastics, athletics and gymnastic services. The word is derived from the ancient Greek gymnasium. They are commonly found in athletic and fitness centres, and as activity and learning spaces in educational institutions.</p>
+                            <p><a href="#" class="btn btn-primary px-4 py-2 text-white">Learn More</a></p>
+                        </div>
+                    </div>
+                </div>
+    </main>
+
+    <div class="container-fluid" style="margin-top: 40px;" >
+        <div class="promo py-5 bg-secondary" data-aos="fade">
+            <div class="container text-center container-fluid">
+                <h2 class="d-block mb-0 font-weight-light text-white"><a href="#" class="text-white d-block">Visit Our Office</a></h2>
+            </div>
+        </div>
+    </div>
+
+<div class="container-fluid" style="margin-top: 40px;">
+    <footer class="site-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-7">
+              <div class="row">
+                <div class="col-6 col-md-4 col-lg-4 mb-5 mb-lg-0">
+                  <h3 class="footer-heading mb-4">Know More</h3>
+                  <ul class="list-unstyled">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Reviews</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Careers</a></li>
+                  </ul>
+                </div>
+                 <div class="col-6 col-md-4 col-lg-4 mb-5 mb-lg-0">
+                  <h3 class="footer-heading mb-4">Navigations</h3>
+                  <ul class="list-unstyled">
+                    <li><a href="#"></a></li>
+                    <li><a href="#">Admin Login</a></li>
+                    <li><a href="#">TimeTable</a></li>
+                    <li><a href="#">Fintness Analtics Lab</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Advertise</a></li>
+                  </ul>
+                </div> 
+                <div class="col-6 col-md-4 col-lg-4 mb-5 mb-lg-0">
+                  <h3 class="footer-heading mb-4">Quick Menu</h3>
+                  <ul class="list-unstyled">
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">MemberShip Policy</a></li>
+                    <li><a href="#">Courses offered</a></li>
+                    <li><a href="#">Offers</a></li>
+                    <li><a href="#">Classes</a></li>
+                    <li><a href="#"></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-5">
+              <div class="row mb-5">
+                <div class="col-md-12"><h3 class="footer-heading mb-4">Maharashtra</h3></div>
+                    <div class="col-md-6">
+                    <p>Baner<br> Pune-411041</p>    
+                    </div>
+                    <div class="col-md-6">
+                  Tel. + (91) 8885832122<br>
+                  Mail. GymPro@youdomain.com
+                    </div>
+              </div>
+  
+              <div class="row">
+                <div class="col-md-12"><h3 class="footer-heading mb-4"></h3></div>
+                    <div class="col-md-6">
+                        <p>AnandNagar <br>Nanded-431709</p>    
+                    </div>
+                <div class="col-md-6">
+                     Tel. + (91) 9637763012 <br>
+                     Mail. GymPro@youdomain.com
+                </div>
+              </div>
+            </div>
+          </div>
+         
+          
+        </div>
+            <div class="row pt-5 mt-5 text-center">
+                <div class="col-md-12">
+                     <p>
+                     GymPro.in | © 2019 Varseno Solutions.All Rights Reserved |    Privacy Policy  | Terms & Conditions
+                    </p>
+                <div>
+                    <button style="text-align: end;" mat-raised-button color="#007bff">   <a href="#Home"  style="text-align: right;">Go to Top</a></button><br><br>
+            </div>
+        </div>
+        </div>
+    </footer>
+</div>
+
+
+
+
+
